@@ -8,8 +8,8 @@ from math import atan2
 import math
 from geometry_msgs.msg import Point
 n=0
-xlist= [4.0,-3.0,7.0,-9.0]
-ylist= [7.0,3.0,-2.0,9.0]
+xlist= [0.0, 0.0,7.0,-9.0]
+ylist= [0.0,1.0,-2.0,9.0]
 def Robotpos(msg):
     global x
     global y
